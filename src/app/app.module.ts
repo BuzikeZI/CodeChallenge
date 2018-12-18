@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgbdCarouselBasic } from './carousel-basic';
 
 
 
@@ -20,8 +19,7 @@ import { AppRoutingModule } from './/app-routing.module';
   declarations: [
     AppComponent,
     ProductDetailComponent,
-    ProductListComponent,
-    NgbdCarouselBasic
+    ProductListComponent
 
   ],
   imports: [
