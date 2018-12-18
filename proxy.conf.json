@@ -1,0 +1,8 @@
+{
+    "/services/*":{
+        "target":"https://www.westelm.com/",
+        "secure":false,
+        "logLevel":"debug",
+        "changeOrigin":true
+    }
+}

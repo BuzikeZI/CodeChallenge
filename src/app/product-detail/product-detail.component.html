@@ -1,0 +1,23 @@
+<div class="outer">
+    <img src="{{product[0].hero.href}}" alt="loading">
+  <div class="inner">{{product[0].name}}</div>
+  <div class="price">${{product[0].priceRange.selling.low}} ~ ${{product[0].priceRange.selling.high}}</div>
+
+</div>
+
+
+<ngb-carousel class="item">
+    <ng-template ngbSlide>
+        <img src="{{product[0].hero.href}}" alt="Random third slide">
+      </ng-template>
+    <ng-template ngbSlide>
+      <img src="{{product[0].images[0].href}}" alt="Random first slide">
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="{{product[0].images[1].href}}" alt="Random second slide">      
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="{{product[0].images[2].href}}" alt="Random third slide">
+    </ng-template>
+  </ngb-carousel>
+

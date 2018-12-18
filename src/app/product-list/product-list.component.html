@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="productList" *ngFor="let product of products">
+      <div ><a routerLink="/productDetail/{{product.id}}"><img src="{{product.hero.href}}"></a></div>
+      {{product.name}}
+    </div>
+<div>
+    
